@@ -2760,7 +2760,7 @@ main.faq {
 }
 
 .answer-h2:before {
-    content: url('/assets/images/tri-orange.png');
+    content: url('../assets/images/tri-orange.png');
     width: 40px;
     height: 29px;
     margin-right: 16px;
@@ -2769,7 +2769,7 @@ main.faq {
 }
 
 .long .answer-h2:before {
-    content: url('/assets/images/tri-blue.png');
+    content: url('../assets/images/tri-blue.png');
     transform: rotate(180deg) translateY(5px);
 }
 
