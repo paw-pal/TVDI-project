@@ -686,6 +686,12 @@ section {
     font-size: 18px;
 }
 
+@media screen and (max-width: 1138px){
+    .footerbar p{
+        font-size: 12px;
+    }
+}
+
 @media screen and (max-width: 1036px) {
     .footerItem li {
         padding-right: 10px;
@@ -698,6 +704,12 @@ section {
     .home .main div{
         transform: scale(0.8);
     }
+
+    .footerbar  span
+    {
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 768px){
@@ -759,10 +771,6 @@ section {
         display: none;
     }
 
-    .footerbar  span
-    {
-        display: none;
-    }
 
     .footer p
     {
@@ -4327,9 +4335,7 @@ button {
     display: none;
 }
 
-main {
-    padding-bottom: 0;
-}
+
 
 @media screen and (max-width: 768px) {   
     .section-hs {
