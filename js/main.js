@@ -43,7 +43,7 @@ $(function () {
     })
 
 
-    $('.menu-item-search').on('click', function () {
+    $('.menu-item-search').on('mousedown', function () {
         $(this).addClass('change');
 
     })
